@@ -1,9 +1,35 @@
-body {
+body, a {
   background-color:  #336699;
   color:  #ffffe6;
   font-size: 10vh;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+}
+
+body {
+  padding-left: 5%;
+}
+
+
+h1 {
+  font-size: 14vh;
+}
+
+h2 {
+  font-size: 10vh;
 
 }
+
+div {
+  border-bottom: thin solid orange;
+}
+
+/* div * { */
+
+/* } */
 
 ul {
   list-style-type:none;

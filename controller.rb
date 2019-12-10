@@ -17,7 +17,8 @@ end
 
 
 get '/films/:name' do
-  @selected_film = Film.new(params[:name])
+  @selected_film = Film.find(params[:name])
+  @title = @selected_film.title
   @price = @selected_film.price
   # @title = params['title']
   # @price = params['price'].to_i
