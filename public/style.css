@@ -11,6 +11,8 @@ body, a {
 
 body {
   padding-left: 5%;
+  padding-right: 5%;
+
 }
 
 
@@ -27,9 +29,6 @@ div {
   border-bottom: thin solid orange;
 }
 
-/* div * { */
-
-/* } */
 
 ul {
   list-style-type:none;
