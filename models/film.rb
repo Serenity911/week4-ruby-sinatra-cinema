@@ -110,6 +110,14 @@ class Film
     return ordered.first
   end
 
+  def self.find(title)
+   sql = "SELECT * FROM films WHERE title = $1"
+   values = [title]
+   result = SqlRunner.run(sql, values).first
+   return result == nil ?  nil : Film.new(result)
+ end
+
+
 
   #Helper methods for mapping
   def self.map_items(film_data)
